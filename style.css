@@ -1,0 +1,47 @@
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.search-filter {
+  display: flex;
+  gap: 1rem;
+}
+#search,#region,#toggle-theme{
+  box-shadow: 0 0 5px rgba(0,0,0,0.3);
+  padding: 20px;
+  border: none;
+  border-radius: 3px;
+}
+#toggle-theme,#region{
+  background-color: white;
+}
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 2rem;
+  padding: 2rem;
+}
+main img{
+  height: 200px;
+  width: 320px;
+}
+
+body.light-mode {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+body.dark-mode {
+  background-color: #202c37;
+  color: #fff;
+}
+.country-card{
+  box-shadow: 0 0 5px rgba(0,0,0,0.3);
+  width: 320px;
+  padding: 0;
+  border-radius: 3px;
+}
